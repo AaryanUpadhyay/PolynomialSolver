@@ -45,7 +45,7 @@ function lagrangeInterpolation(points, targetX = 0) {
 function findConstantC() {
     try {
         // Import JSON data
-        const data = JSON.parse(fs.readFileSync('roots.json', 'utf8'));
+        const data = JSON.parse(fs.readFileSync('roots1.json', 'utf8'));
 
         const k = data.keys.k;
         const points = [];
